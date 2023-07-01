@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.input_container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px;
+}
+
+.input_container > div > label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.err_msg {
+  color: red;
+  font-weight: bold;
+}
+
+.input_container > div > input {
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(209, 209, 209);
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.input_container > button {
+  padding: 5px 20px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.input_container > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.weathher_card {
+  width: 800px;
+  margin: auto;
+  background-color: black;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholder_card {
+  width: 800px;
+  min-height: 500px;
+  margin: auto;
+  background-color: rgb(209, 209, 209);
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 90%;
+}
+
+.details_main {
+  display: flex;
+  gap: 30px;
+}
+
+.details_master {
+  display: flex;
+}
+
+.detail_temp {
+  font-size: 50px;
+}
+
+.detail_unit {
+  font-size: 25px;
+}
+
+.detail_unit > span {
+  font-size: 25px;
+  color: rgb(94, 93, 93);
+}
+
+.detail_unit > button {
+  background: none;
+  border: none;
+  outline: none;
+  color: rgb(134, 134, 134);
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.active_unit {
+  color: white !important;
+}
+
+.detail_img {
+  width: 80px;
+  height: auto;
+}
+
+.detail_verbose {
+  font-size: 12px;
+  color: rgb(134, 134, 134);
+  font-weight: bold;
+}
+
+.tabs_container {
+  margin-top: 20px;
+  display: flex;
+  width: 90%;
+}
+.tabs {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+}
+
+.tabs > span {
+  color: rgb(94, 93, 93);
+}
+
+.tab_btn {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.active_tab {
+  border-bottom: 2px solid #e7c749;
+}
+
+.tab_btn:hover {
+  border-bottom: 2px solid #e7c749;
+}
+.detail_location {
+  text-align: end;
+}
+
+.day_map {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+}
+
+.dd_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.dd_card:hover {
+  background-color: rgba(255, 255, 255, 0.099);
+}
+
+.dd_img {
+  width: 50px;
+}
+
+.dd_temp_min {
+  color: rgb(134, 134, 134);
+}
